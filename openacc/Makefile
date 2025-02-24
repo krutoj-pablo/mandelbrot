@@ -1,7 +1,5 @@
 CXX := nvc++
 CXX_ACCFLAGS_GPU := -acc=gpu -gpu=cc86,managed
-CXX_ACCFLAGS_CPU := -acc=multicore
-
 CXXFLAGS := -Minfo=accel -fast
 CXXLIBS := -lsfml-graphics -lsfml-window -lsfml-system
 
